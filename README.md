@@ -17,3 +17,6 @@ Colab sessions reset after a timeout, so setup has to be repeated in a new sessi
 - Allows `torch.load(weights_only=False)` for the authors' checkpoint, which newer PyTorch rejects by default.
 
 No weights or model code are stored in this repo. All credit for the model goes to the PoseMamba authors; see their repository for the license and citation.
+
+## Source copy
+`PoseMamba/` is a copy of the project source with the fixes above already applied (see `PoseMamba/LICENSE`). The notebook itself still clones the original repo and patches it at runtime.
